@@ -42,6 +42,21 @@ nav a:hover {
 	background-image: url("../images/birdsky.jpeg");
 	background-size: cover; 
 	background-position: center;
-	color: #fff;
+	color: rgb(59, 96, 135);
 	text-align: center;
 }
+
+.main-content.post {
+	/*background-color:#EFFFFF;*/
+	color:rgb(59, 96, 135);
+	padding: 20px;
+	margin: 20px;
+}
+
+.img-50 {
+	border-radius: 25px;
+	width: 75%;/* % of container*/
+	display:block;
+	margin:10px auto;
+} 
+

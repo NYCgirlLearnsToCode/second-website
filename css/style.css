@@ -84,7 +84,30 @@ p {
 	margin:10px auto;
 } 
 
-/*These are Utility Clasees
+label {
+	display:block;
+}
+
+input[type=text],textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom:16px;
+}
+
+.form {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    width: 700px;
+    margin:auto; /*centers container*/
+  }
+/*These are Utility Classes
 =======================================*/
 
 .center-text {
